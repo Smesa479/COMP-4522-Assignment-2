@@ -24,9 +24,9 @@ from pathlib import Path
 
 import pandas as pd
 
-# ----------------------------------------------------------------------
+ 
 # Settings and paths
-# ----------------------------------------------------------------------
+ 
 # ROOT = the project folder (this file lives in <ROOT>/etl/, so go up two levels).
 ROOT = Path(__file__).resolve().parent.parent
 RAW = None                       # folder with the 4 supplied CSV files (found automatically in main)
@@ -42,9 +42,9 @@ VALID_CATEGORIES = {"Home", "Food", "Clothing", "Electronics"}
 CURRENT_YEAR = pd.Timestamp.today().year
 
 
-# ----------------------------------------------------------------------
+
 # Helper tools used by the cleaning code
-# ----------------------------------------------------------------------
+ 
 class Log:
     """Notebook of everything we find. Two lists become two CSV files at the end:
        - checks   -> output/quality_checks.csv  (one row per check: how many records were affected)
@@ -97,9 +97,9 @@ def act(n, text):
     return text if n else "none found"
 
 
-# ----------------------------------------------------------------------
+ 
 # 2 + 3. INSPECT and CLEAN
-# ----------------------------------------------------------------------
+ 
 def inspect_and_clean(raw):
     """Run all quality checks, remove/repair bad records, log everything.
     Input : dict of the four raw tables (text).
@@ -191,7 +191,7 @@ def inspect_and_clean(raw):
     dates = pd.to_datetime(sales.Sale_Date, format="%Y-%m-%d", errors="coerce")
     bad_date = dates.isna() & ~blank
     # Check 3: numbers must really be numbers (Units_Sold must be a whole number).
-    non_numeric = (~is_int_text(sales.Units_Sold.str.lstrip("-")) | ~is_num_text(sales.Revenue)
+    non_numeric = (~sales.Units_Sold.str.fullmatch(r"-?\d+").fillna(False)  | ~is_num_text(sales.Revenue) 
                    | ~is_num_text(sales.Effort_Hours)) & ~blank
     log.check("sales_performance", "Missing / blank values", blank.sum(), act(blank.sum(), "discarded"))
     log.check("sales_performance", "Unparseable Sale_Date", bad_date.sum(), act(bad_date.sum(), "discarded"))
@@ -262,9 +262,9 @@ def inspect_and_clean(raw):
     return {"store": store, "employee": emp, "product": prod, "sales": sales}, log, n0
 
 
-# ----------------------------------------------------------------------
+
 # 4. TRANSFORM  (pandas joins + aggregation)
-# ----------------------------------------------------------------------
+
 def transform(clean):
     """Build the dataset used for data mining from the four cleaned tables.
     Returns: the main table (one row per sale) and three aggregated summary tables."""
@@ -312,9 +312,9 @@ def transform(clean):
     return df, emp_sum, store_sum, cat_sum
 
 
-# ----------------------------------------------------------------------
+ 
 # 5. LOAD (write outputs)  +  main program
-# ----------------------------------------------------------------------
+ 
 def main():
     # Create the output folders if they do not exist yet.
     OUT.mkdir(exist_ok=True)
