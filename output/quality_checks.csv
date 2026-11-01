@@ -1,0 +1,22 @@
+table,check,records_affected,action
+store,Missing / non-numeric Store_ID,0,none found
+store,Duplicate Store_ID (primary key),0,none found
+store,Implausible Opening_Year (<1800 or >current year),1,"Opening_Year set to NULL, store kept"
+product,"Non-numeric Product_ID, unknown Category (e.g. 'Other') or invalid Base_Price",2,discarded (no sale references them)
+product,Duplicate Product_ID (primary key),0,none found
+product,Base_Price <= 0,0,none found
+employee,DOB / DOJ are not valid YYYY-MM-DD dates (corrupted 'mm:ss.f' fragments),100,"kept as text, excluded from analysis"
+employee,Missing / non-numeric Employee_ID,1,discarded
+employee,Duplicate Employee_ID (primary key),0,none found
+employee,Store_ID not found in Store (FK),1,discarded
+sales_performance,Missing / blank values,0,none found
+sales_performance,Unparseable Sale_Date,0,none found
+sales_performance,Non-numeric Revenue/Effort_Hours or non-integer Units_Sold,0,none found
+sales_performance,Revenue < 0,2,discarded
+sales_performance,Units_Sold < 1,0,none found
+sales_performance,Effort_Hours < 0,1,discarded
+sales_performance,Revenue = 0 (allowed by rule Revenue >= 0),1,"kept, flagged"
+sales_performance,Employee_ID not in the Employee table (FK),194,"discarded: 1048 x192, C3PO x1, R2D2 x1"
+sales_performance,Employee exists but was removed in cleaning (invalid Store_ID),199,discarded: 1023 x199
+sales_performance,Product_ID not in Product (FK),0,none found
+sales_performance,Exact duplicate rows,0,none found

@@ -1,0 +1,402 @@
+table,record,reason,action
+store,11 (Store_11),Opening_Year 1492 is implausible,repaired (set to NULL)
+product,bc31,Invalid product row (ID/category/price): category 'Other',discarded
+product,999,Invalid product row (ID/category/price): category 'Other 2',discarded
+employee,A69,Non-numeric Employee_ID,discarded
+employee,1023,Store_ID 'a' is not a valid Store (FK violation),discarded
+sales_performance,row 218 (emp 1038),Effort_Hours < 0,discarded
+sales_performance,row 13 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 100 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 207 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 246 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 304 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 307 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 375 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 396 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 417 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 540 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 547 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 591 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 599 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 752 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1029 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1036 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1098 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1292 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1430 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1507 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1601 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1930 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 1954 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 2109 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 2116 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 2439 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 2447 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 2494 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 2820 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 2822 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 2996 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3022 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3035 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3104 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3116 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3121 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3191 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3274 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3709 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3738 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3835 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3846 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 3940 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4047 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4125 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4200 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4213 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4516 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4524 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4525 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4740 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 4775 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 5054 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 5343 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 5373 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 5560 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 5690 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 5840 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 5848 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6031 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6062 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6343 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6407 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6419 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6697 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6744 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6859 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 6911 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 7046 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 7213 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 7222 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 7289 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 7455 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 7677 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 7738 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 7937 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8016 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8392 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8414 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8543 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8545 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8679 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8877 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8895 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 8898 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9128 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9291 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9312 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9447 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9563 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9694 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9701 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9722 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9844 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 9939 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10136 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10146 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10289 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10361 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10419 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10424 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10430 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10432 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10519 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 10869 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11004 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11059 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11091 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11148 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11229 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11306 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11329 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11334 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11453 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11732 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 11789 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 12139 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 12239 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 12440 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 12474 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 12909 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13033 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13041 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13090 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13123 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13146 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13154 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13287 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13325 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13379 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13531 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13672 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13673 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 13819 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14020 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14215 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14237 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14242 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14261 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14322 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14362 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14430 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14582 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14662 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14663 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 14848 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15020 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15038 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15061 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15097 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15121 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15179 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15207 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15348 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15563 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15597 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15622 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15646 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15734 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 15781 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16048 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16126 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16149 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16173 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16274 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16275 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16298 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16334 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16687 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 16807 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 17318 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 17383 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 17408 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 17516 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 17538 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 17877 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 17882 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 17931 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18071 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18151 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18206 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18312 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18460 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18570 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18587 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18649 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18700 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 18938 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19012 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19249 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19279 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19347 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19472 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19483 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19611 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19738 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19783 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19826 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 19948 (emp 1023),"Employee removed during cleaning (invalid Store_ID), no valid employee",discarded
+sales_performance,row 30 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 365 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 448 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 594 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 619 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 735 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 793 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 802 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 937 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 999 (emp C3PO),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1103 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1299 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1306 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1310 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1316 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1330 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1543 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1652 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1668 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 1708 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2019 (emp R2D2),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2031 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2103 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2118 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2201 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2329 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2397 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2441 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2462 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2514 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2611 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2800 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 2857 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3031 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3092 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3177 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3201 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3231 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3586 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3589 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3599 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3606 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3647 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3705 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3763 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 3814 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4066 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4102 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4189 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4311 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4530 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4631 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4662 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4763 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4765 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4836 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 4996 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5077 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5089 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5093 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5146 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5176 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5344 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5449 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5496 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5534 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5662 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5679 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5779 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5783 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5800 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5880 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 5997 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 6358 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 6628 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 6803 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 6956 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7023 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7057 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7186 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7192 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7434 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7688 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7710 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7722 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7726 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7743 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7776 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 7993 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8178 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8184 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8191 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8202 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8218 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8279 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8303 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8424 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8439 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8644 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8756 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8758 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8837 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8932 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 8993 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9025 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9045 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9134 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9193 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9307 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9449 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9465 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9588 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9731 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9853 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9895 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 9896 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10094 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10126 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10132 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10304 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10477 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10560 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10786 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10888 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10891 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 10954 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11028 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11248 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11273 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11403 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11406 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11420 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11433 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11583 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11682 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11718 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11900 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 11986 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 12402 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 12445 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 12495 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 12635 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 13133 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 13238 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 13363 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 13397 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 13445 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 13671 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 13846 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 13864 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 14044 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 14340 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 14654 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 14689 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 14726 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 14738 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 14756 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 14870 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 15592 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 15807 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 15919 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 15985 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 16086 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 16145 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 16157 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 16161 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 16449 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 16764 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 16847 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 17107 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 17136 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 17458 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 17594 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 17624 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 17705 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 17778 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 17817 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 18057 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 18277 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 18396 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 18410 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 18600 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 18688 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 18756 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 18759 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19044 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19098 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19112 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19235 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19412 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19425 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19465 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19858 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 19968 (emp 1048),Employee_ID not in Employee table (FK violation),discarded
+sales_performance,row 64 (emp 1043),Revenue < 0,discarded
+sales_performance,row 121 (emp 1034),Revenue < 0,discarded

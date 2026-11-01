@@ -1,0 +1,16 @@
+{
+  "raw_rows": {
+    "store": 11,
+    "employee": 100,
+    "product": 42,
+    "sales": 20000
+  },
+  "clean_rows": {
+    "store": 11,
+    "employee": 98,
+    "product": 40,
+    "sales": 19604
+  },
+  "sales_rows_in_mining_dataset": 19604,
+  "discarded_sales_rows": 396
+}
