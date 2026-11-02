@@ -289,6 +289,11 @@ def transform(clean):
     df["Sale_Weekday"] = df.Sale_Date.dt.day_name()                 # e.g. 'Monday'
     df = df.sort_values(["Employee_ID", "Sale_Date"]).reset_index(drop=True)
 
+    # AGGREGATED DATASET FOR MINING 
+    # one row per Effort_Hours value with the average Revenue (avg_rev) and the number of sales behind it.
+    # Done in pandas (groupby), not in a database.
+    agg = df.groupby("Effort_Hours").agg(avg_rev=("Revenue", "mean"), n_sales=("Revenue", "size")).reset_index()
+
     # AGGREGATION: g(by) groups the sales by the given columns and computes the same summary
     # numbers for each group (count of sales, totals, averages).
     g = lambda by: (df.groupby(by).agg(  # noqa: E731
@@ -309,7 +314,7 @@ def transform(clean):
     store_sum["revenue_per_effort_hour"] = store_sum.total_revenue / store_sum.total_effort_hours
     cat_sum = g(["Category"])
     cat_sum["revenue_per_effort_hour"] = cat_sum.total_revenue / cat_sum.total_effort_hours
-    return df, emp_sum, store_sum, cat_sum
+    return df, emp_sum, store_sum, cat_sum, agg
 
 
  
@@ -328,7 +333,7 @@ def main():
     clean, log, n_raw_sales = inspect_and_clean(raw)
 
     # 4) TRANSFORM.
-    df, emp_sum, store_sum, cat_sum = transform(clean)
+    df, emp_sum, store_sum, cat_sum, agg = transform(clean)
 
     # 5) LOAD: save everything to CSV files in output/.
     for name, d in clean.items():
@@ -339,12 +344,14 @@ def main():
     emp_sum.to_csv(OUT / "employee_summary.csv", index=False)
     store_sum.to_csv(OUT / "store_summary.csv", index=False)
     cat_sum.to_csv(OUT / "category_summary.csv", index=False)
+    agg.to_csv(OUT / "effort_aggregated.csv", index=False)
 
     # Small summary of row counts before/after cleaning (saved and printed).
     summary = {
         "raw_rows": {k: int(len(v)) for k, v in raw.items()},
         "clean_rows": {k: int(len(v)) for k, v in clean.items()},
         "sales_rows_in_mining_dataset": int(len(df)),
+        "effort_aggregated_rows": int(len(agg)),
         "discarded_sales_rows": int(n_raw_sales - len(clean["sales"])),
     }
     (OUT / "etl_summary.json").write_text(json.dumps(summary, indent=2))
